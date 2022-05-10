@@ -1,0 +1,1170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* ---- ----- ----- PERFILES ----- ----- ----- */
+
+
+/* ---- ----- ----- PERFILES ----- ----- ----- */
+
+
+/* ---- ----- ----- PERFILES ----- ----- ----- */
+
+.logo_netflix {
+    padding: 1%;
+    border: 1%;
+    margin: 1%;
+}
+
+.color_fondo {
+    background-color: black;
+}
+
+.perfiles_en_descanzo {
+    margin: 12% auto;
+}
+
+.Letra_pantalla_inicio {
+    width: 100%;
+    color: #fff;
+    font-size: 3.5vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.Letra_pantalla_inicio1 {
+    font-size: 100%;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    justify-items: center;
+    color: rgb(175, 174, 174);
+    margin: auto 12%;
+    text-decoration: solid;
+}
+
+.choose-profile {
+    display: flex;
+    margin: 3% 8% auto 13%;
+}
+
+.boton-administrador {
+    padding: 10px 30px;
+    margin: auto 42% auto 42%;
+}
+
+.logo-brra-generos {
+    margin: auto 10%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.979);
+}
+
+.contenedor {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 2000px;
+    margin: auto;
+}
+
+
+/* menu de navegacion */
+
+.contenedor header .main {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.685);
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    position: fixed;
+    z-index: 1;
+}
+
+.contenedor header .main .use {
+    display: none;
+}
+
+.contenedor header .main .use .datos2 {
+    text-align: center;
+}
+
+.contenedor header .main .logo {
+    color: red;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+
+/* #menu ul li {
+    background-color:#2e518b;
+} */
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* text-transform:uppercase; */
+    letter-spacing: 1px;
+}
+
+#menu ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* #menu ul li:hover {
+  background:#5b78a7;
+} */
+
+#menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+}
+
+#menu ul ul li {
+    float: none;
+    width: 102px;
+}
+
+#menu ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+}
+
+#menu ul a:hover {
+    color: rgb(163, 163, 163);
+}
+
+#menu ul li:hover>ul {
+    display: block;
+    background: rgba(0, 0, 0, 0.788);
+    border-radius: 0px 0px 5px 5px;
+}
+
+#menu ul li:hover>.cate {
+    background: black;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#menu ul ul .cate2 {
+    display: none;
+}
+
+
+/* sesion  */
+
+#sesion {
+    text-transform: capitalize;
+}
+
+#sesion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sesion ul a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* text-transform:uppercase; */
+    letter-spacing: 1px;
+}
+
+#sesion ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* #menu ul li:hover {
+	background:#5b78a7;
+  } */
+
+#sesion ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+}
+
+#sesion ul ul li {
+    float: none;
+    width: 130px;
+}
+
+#sesion ul ul a {
+    line-height: 120%;
+    padding: 10px 0px;
+}
+
+#sesion ul #cerrar:hover {
+    text-decoration: underline;
+}
+
+#sesion ul li:hover>ul {
+    display: block;
+    background: rgba(0, 0, 0, 0.788);
+    border-radius: 0px 0px 5px 5px;
+}
+
+#sesion ul li:hover>.cate {
+    border-radius: 5px 5px 3px 3px;
+}
+
+#sesion ul .cate {
+    display: flex;
+    align-items: center;
+}
+
+#cerrar {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#icono {
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+/* Estilos portada y sinopsis */
+
+
+/* .contenedor header{
+    background: url('../poster/principal/5.jpg');
+    height: 550px;
+    background-position: top center;
+    background-size: cover;
+} */
+
+.contenedor header .titulo {
+    color: white;
+    width: 500px;
+    padding-top: 300px;
+    margin-left: 60px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.contenedor header .titulo p {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.911);
+}
+
+.contenedor header .titulo .caja1 {
+    padding-left: 20px;
+    width: 175px;
+}
+
+.contenedor header .titulo .caja2 {
+    width: 205px;
+}
+
+.contenedor header .titulo a {
+    background: rgba(0, 0, 0, 0.719);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-right: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.contenedor header .titulo a:hover {
+    background: white;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.contenedor header .titulo a img {
+    width: 20px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+
+/* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
+
+.contenedor-titulo-controles {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.contenedor-titulo-controles h3 {
+    margin-top: 10px;
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 20px;
+}
+
+.contenedor-titulo-controles .indicadores button {
+    background: #fff;
+    height: 3px;
+    width: 10px;
+    cursor: pointer;
+    border: none;
+    margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo {
+    background: red;
+}
+
+
+/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
+
+.peliculas-recomendadas {
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.peliculas-recomendadas .contenedor-principal {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+    position: absolute;
+    border: none;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 40px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 500;
+    transition: .2s ease all;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover {
+    background: rgba(0, 0, 0, .9);
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda {
+    left: 0;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+    right: 0;
+}
+
+
+/* ---- ----- ----- Carousel ----- ----- ----- */
+
+.peliculas-recomendadas .contenedor-carousel {
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+}
+
+.peliculas-recomendadas .contenedor-carousel::-webkit-scrollbar {
+    height: 7px;
+    background: rgb(31, 31, 31);
+}
+
+.peliculas-recomendadas .contenedor-carousel::-webkit-scrollbar-thumb {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 5%, rgb(2, 2, 24) 50%, rgb(0, 91, 109) 100%);
+    border-radius: 3px;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
+    min-width: 22%;
+    transition: .2s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+}
+
+.peliculas-recomendadas .carousel .pelicula {
+    margin-left: 5px;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
+    transform: scale(1.2);
+    transform-origin: center;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.pelicula img {
+    height: 100%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .contenedor header .main .use {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        background: url('../poster/logo.png');
+        background-position: top center;
+        background-size: cover;
+        padding-top: 25px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 100%;
+        margin-right: 15px;
+    }
+    #sesion {
+        display: none;
+    }
+    .contenedor header .main .use h5 {
+        background: black;
+        border-radius: 5px;
+        text-transform: capitalize;
+    }
+    .contenedor header .main .use2 {
+        display: none;
+    }
+    .contenedor header .main .logo .use .datos {
+        text-align: center;
+    }
+    .contenedor header .main .logo .use .datos form {
+        text-align: center;
+    }
+    .contenedor header .main .logo h1 {
+        padding-top: 17px;
+    }
+    .contenedor header .main .logo .use .datos form button {
+        background: rgb(233, 7, 7);
+        border-radius: 10px;
+        color: white;
+        font-size: 10px;
+    }
+    .contenedor header .main {
+        background: rgba(0, 0, 0, 0.432);
+        display: block;
+        padding-bottom: 5px;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .contenedor header .main .logo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        text-align: center;
+        color: red;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 10px;
+    }
+    #menu ul .opcional {
+        display: none;
+    }
+    #menu ul ul .cate2 {
+        display: block;
+    }
+    #menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenedor header .titulo {
+        width: 100%;
+        margin-left: 3px;
+    }
+    .peliculas-recomendadas {
+        margin-bottom: 1px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .contenedor header .titulo a {
+        margin-top: 0px;
+    }
+    .contenedor header .titulo p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .contenedor-titulo-controles h3 {
+        margin-top: 15px;
+        margin-left: 2px;
+        font-size: 18px;
+    }
+    .pelicula img {
+        height: 100px;
+    }
+    .contenedor header .titulo {
+        padding-top: 350px;
+        text-align: center;
+    }
+    .contenedor header .titulo .caja1 {
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 175px;
+    }
+    .contenedor header .titulo .caja2 {
+        display: none;
+    }
+    .contenedor header .titulo a:hover {
+        background: white;
+        color: rgba(0, 0, 0, 0.747);
+    }
+    .contenedor header .titulo a img {
+        width: 20px;
+        float: left;
+        margin-right: 0px;
+        border-radius: 10px;
+    }
+    .contenedor header .titulo h1 {
+        font-size: 20px;
+    }
+    .contenedor header .titulo p {
+        display: none;
+    }
+    .buscador {
+        text-align: center;
+    }
+}
+
+.Familiares {
+    align-items: center;
+    justify-items: center;
+    padding: 0% 1%;
+}
+
+
+/* ---- ----- ----- REPRODUCCION DOCTOR STRANGER ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION DOCTOR STRANGER ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION DOCTOR STRANGER ----- ----- ----- */
+
+.Fondo_Doctor_Strange {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/fBStjn6y58rZ4QMyMGkodFdEIJa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Doctor_Strange:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Doctor_Strange {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Doctor_Strange {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Doctor_Strange {
+    margin: 5%;
+}
+
+.Explicacion_Doctor_Strange {
+    margin: auto 10% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION RED ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION RED ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION RED ----- ----- ----- */
+
+.Fondo_Red {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/mdviAeQNEAOSddeViLMPh3Ihiqb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Red:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Red {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Red {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Red {
+    margin: 5%;
+}
+
+.Explicacion_Red {
+    margin: auto 10% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION SONIC ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION SONIC ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION SONIC ----- ----- ----- */
+
+.Fondo_Sonic {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Sonic:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Sonic {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Sonic {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Sonic {
+    margin: 5%;
+}
+
+.Explicacion_Sonic {
+    margin: auto 10% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION HOTEL TRANSILVANIA 2----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION HOTEL TRANSILVANIA 2----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION HOTEL TRANSILVANIA 2----- ----- ----- */
+
+.Fondo_Hotel-Transilvania-2 {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/86Bxkqz9N6zyHOAAPYETZPYCNaq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Hotel-Transilvania-2:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Hotel-Transilvania-2 {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Hotel-Transilvania-2 {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Hotel-Transilvania-2 {
+    margin: 5%;
+}
+
+.Explicacion_Hotel-Transilvania-2 {
+    margin: auto 10% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION UNCHARTED----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION UNCHARTED----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION UNCHARTED----- ----- ----- */
+
+.Fondo_Uncharted {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/aEGiJJP91HsKVTEPy1HhmN0wRLm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Uncharted:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Uncharted {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Uncharted {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Uncharted {
+    margin: 5%;
+}
+
+.Explicacion_Uncharted {
+    margin: auto 10% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION The Batman----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION The Batman----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION The Batman----- ----- ----- */
+
+.Fondo_The_Batman {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/e66tM5YOawXLxhDAfWkR7sxpb3h.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_The_Batman:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_The_Batman {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_The_Batman {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_The_Batman {
+    margin: 5%;
+}
+
+.Explicacion_The_Batman {
+    margin: auto 10% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION Animales_Fantásticos----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Animales_Fantásticos----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Animales_Fantásticos----- ----- ----- */
+
+.Fondo_Animales_Fantásticos {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/wQXb8y401ztnwlFCTLssnvAgGjF.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Animales_Fantásticos:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Animales_Fantásticos {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Animales_Fantásticos {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Animales_Fantásticos {
+    margin: 5%;
+}
+
+.Explicacion_Animales_Fantásticos {
+    margin: auto 10% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION MORBIUS----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION MORBIUS----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION MORBIUS----- ----- ----- */
+
+.Fondo_Morbius {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/tj4lzGgHrfjnjVqAKkLIjFqPSyO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Morbius:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Morbius {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Morbius {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Morbius {
+    margin: 5%;
+}
+
+.Explicacion_Morbius {
+    margin: auto 10% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION Ambulance Plan de Huida ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Ambulance Plan de Huida ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Ambulance Plan de Huida ----- ----- ----- */
+
+.Fondo_Ambulance {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/192vHmAPbk5esL34XMKZ1YLGFjr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Ambulance:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Ambulance {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Ambulance {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Morbius {
+    margin: 5%;
+}
+
+.Explicacion_Morbius {
+    margin: auto 10% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION LOS TIPOS MALOS ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION LOS TIPOS MALOS ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION LOS TIPOS MALOS ----- ----- ----- */
+
+.Fondo_Los_Tipos_Malos {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/ea3nuV8XgPe5HOrQec1uzX1mzdY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Los_Tipos_Malos:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Los_Tipos_Malos {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Los_Tipos_Malos {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Los_Tipos_Malos {
+    margin: 5%;
+}
+
+.Explicacion_Los_Tipos_Malos {
+    margin: auto 10% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- LOGOS DE PRODUCTORAS----- ----- ----- */
+
+
+/* ---- ----- ----- LOGOS DE PRODUCTORAS----- ----- ----- */
+
+
+/* ---- ----- ----- LOGOS DE PRODUCTORAS----- ----- ----- */
+
+.btn-outline-danger {
+    display: flex;
+    justify-content: right;
+    align-content: flex;
+    margin: auto 30%;
+}
+
+.productoras {
+    justify-content: left;
+    padding: auto;
+    margin: 1% auto;
+}
